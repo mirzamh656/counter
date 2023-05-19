@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right,rgb(235, 229, 229), rgb(87, 65, 65));
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+button {
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-family: cursive;
+    color: white;
+    box-shadow: gray 3px 3px 10px;
+}
+
+.floated {
+    float: left;
+    margin-right: 5px;
+}
+
+#dugme_prvo {
+    background-color: darkred;
+    margin-left: 480px;
+}
+
+#dugme_drugo {
+    background-color: darkgreen;
+}
+
+#btn {
+    display: block;
+    background-image: linear-gradient(to right, darkred, darkgreen);
+    margin-left: 500px;
+    width: 250px;
+}
+
+#save-el {
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#dugme_zadnje {
+    display: block;
+    background-image: linear-gradient(to right, darkgreen, darkred);
+    margin-left: 500px;
+    width: 250px;
+}
